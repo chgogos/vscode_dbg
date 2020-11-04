@@ -1,5 +1,10 @@
 # Visual Studio Code (debug)
 
+## Extensions
+
+* C/C++ extension 
+* CodeLLDB
+ 
 ## Windows
 
 * [Using GCC with MinGW](https://code.visualstudio.com/docs/cpp/config-mingw)
