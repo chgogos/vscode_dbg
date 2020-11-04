@@ -5,3 +5,6 @@
 dbg1.dSYM
 
 *.exe
+*.ilk
+*.obj
+*.pdb
