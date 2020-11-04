@@ -29,14 +29,22 @@
             "name": "clang++ - Build and debug active file",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}\\${fileBasenameNoExtension}",
+            "program": "${workspaceFolder}/${fileBasenameNoExtension}",
             "args": [],
-            "stopAtEntry": true,
+            "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb",
             "preLaunchTask": "clang++ build active file"
         },
+        {
+            "name": "Launch debugger using CodeLLDB",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "preLaunchTask": "clang++ build active file"
+        }
     ]
 }
