@@ -82,6 +82,20 @@
 				"isDefault": true
 			},
 			"detail": "compiler: cl.exe"
-		}
+		},
+		{
+			"type": "shell",
+			"label": "linux g++ build active file",
+			"command": "/usr/bin/g++",
+			"args": ["-g", "${file}", "-o", "${fileDirname}/${fileBasenameNoExtension}"],
+			"options": {
+			  "cwd": "/usr/bin"
+			},
+			"problemMatcher": ["$gcc"],
+			"group": {
+			  "kind": "build",
+			  "isDefault": true
+			}
+		  }
 	]
 }
