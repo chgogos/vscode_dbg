@@ -24,6 +24,19 @@
                 }
             ],
             "preLaunchTask": "C/C++: g++.exe build active file"
-        }
+        },
+        {
+            "name": "clang++ - Build and debug active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "clang++ build active file"
+        },
     ]
 }

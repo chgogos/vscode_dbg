@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name": "GCC",
+            "name": "TDM-GCC-64 (WIN10)",
             "includePath": [
                 "${workspaceFolder}/**",
                 "${vcpkgRoot}/x64-windows/include",
@@ -16,6 +16,19 @@
             "intelliSenseMode": "gcc-x64",
             "compilerPath": "C:/TDM-GCC-64/bin/g++.exe",
             "cppStandard": "c++17"
+        },
+        {
+            "name": "clang++ (OSX)",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${vcpkgRoot}/x64-osx/include"
+            ],
+            "defines": [],
+            "macFrameworkPath": [],
+            "compilerPath": "/usr/bin/clang++",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
         }
     ],
     "version": 4

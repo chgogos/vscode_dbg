@@ -19,6 +19,30 @@
 			],
 			"group": "build",
 			"detail": "compiler: C:\\TDM-GCC-64\\bin\\g++.exe"
+		},
+		{
+			"type": "cppbuild",
+			"label": "clang++ build active file",
+			"command": "/usr/bin/clang++",
+			"args": [
+				"-std=c++17",
+				"-stdlib=libc++",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: /usr/bin/clang++"
 		}
 	]
 }
