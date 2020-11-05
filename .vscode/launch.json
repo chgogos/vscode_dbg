@@ -15,7 +15,7 @@
             "environment": [],
             "externalConsole": false,
             "preLaunchTask": "cl.exe build active file"
-          },
+        },
         {
             "name": "g++.exe - Build and debug active file",
             "type": "cppdbg",
@@ -70,14 +70,14 @@
             "externalConsole": false,
             "MIMode": "gdb",
             "setupCommands": [
-              {
-                "description": "Enable pretty-printing for gdb",
-                "text": "-enable-pretty-printing",
-                "ignoreFailures": true
-              }
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
             ],
             "preLaunchTask": "linux g++ build active file",
             "miDebuggerPath": "/usr/bin/gdb"
-          }
+        }
     ]
 }
